@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		3122C8402679F6A000A10E77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C83F2679F6A000A10E77 /* AppDelegate.m */; };
 		3122C8432679F6A000A10E77 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C8422679F6A000A10E77 /* SceneDelegate.m */; };
-		3122C8462679F6A000A10E77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C8452679F6A000A10E77 /* ViewController.m */; };
 		3122C8492679F6A000A10E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3122C8472679F6A000A10E77 /* Main.storyboard */; };
 		3122C84B2679F6A200A10E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3122C84A2679F6A200A10E77 /* Assets.xcassets */; };
 		3122C84E2679F6A200A10E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3122C84C2679F6A200A10E77 /* LaunchScreen.storyboard */; };
 		3122C8512679F6A200A10E77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C8502679F6A200A10E77 /* main.m */; };
 		3122C85B2679F6A200A10E77 /* NavigationGradualChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C85A2679F6A200A10E77 /* NavigationGradualChangeTests.m */; };
 		3122C8662679F6A200A10E77 /* NavigationGradualChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C8652679F6A200A10E77 /* NavigationGradualChangeUITests.m */; };
+		3122C8752679F70900A10E77 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C8742679F70900A10E77 /* TabBarController.m */; };
+		3122C8782679F7FA00A10E77 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C8772679F7FA00A10E77 /* FirstViewController.m */; };
+		3122C87B2679F80600A10E77 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C87A2679F80600A10E77 /* SecondViewController.m */; };
+		3122C87E2679FA5A00A10E77 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122C87D2679FA5A00A10E77 /* Tools.m */; };
+		312F3896267AEFE1002D257F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F3895267AEFE1002D257F /* BaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +45,6 @@
 		3122C83F2679F6A000A10E77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3122C8412679F6A000A10E77 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3122C8422679F6A000A10E77 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3122C8442679F6A000A10E77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3122C8452679F6A000A10E77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3122C8482679F6A000A10E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3122C84A2679F6A200A10E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3122C84D2679F6A200A10E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,16 @@
 		3122C8612679F6A200A10E77 /* NavigationGradualChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationGradualChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3122C8652679F6A200A10E77 /* NavigationGradualChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationGradualChangeUITests.m; sourceTree = "<group>"; };
 		3122C8672679F6A200A10E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3122C8732679F70900A10E77 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		3122C8742679F70900A10E77 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		3122C8762679F7FA00A10E77 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3122C8772679F7FA00A10E77 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3122C8792679F80600A10E77 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3122C87A2679F80600A10E77 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3122C87C2679FA5A00A10E77 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		3122C87D2679FA5A00A10E77 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		312F3894267AEFE1002D257F /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		312F3895267AEFE1002D257F /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +120,21 @@
 				3122C83F2679F6A000A10E77 /* AppDelegate.m */,
 				3122C8412679F6A000A10E77 /* SceneDelegate.h */,
 				3122C8422679F6A000A10E77 /* SceneDelegate.m */,
-				3122C8442679F6A000A10E77 /* ViewController.h */,
-				3122C8452679F6A000A10E77 /* ViewController.m */,
 				3122C8472679F6A000A10E77 /* Main.storyboard */,
 				3122C84A2679F6A200A10E77 /* Assets.xcassets */,
 				3122C84C2679F6A200A10E77 /* LaunchScreen.storyboard */,
 				3122C84F2679F6A200A10E77 /* Info.plist */,
 				3122C8502679F6A200A10E77 /* main.m */,
+				3122C8732679F70900A10E77 /* TabBarController.h */,
+				3122C8742679F70900A10E77 /* TabBarController.m */,
+				3122C8762679F7FA00A10E77 /* FirstViewController.h */,
+				3122C8772679F7FA00A10E77 /* FirstViewController.m */,
+				3122C8792679F80600A10E77 /* SecondViewController.h */,
+				3122C87A2679F80600A10E77 /* SecondViewController.m */,
+				3122C87C2679FA5A00A10E77 /* Tools.h */,
+				3122C87D2679FA5A00A10E77 /* Tools.m */,
+				312F3894267AEFE1002D257F /* BaseNavigationController.h */,
+				312F3895267AEFE1002D257F /* BaseNavigationController.m */,
 			);
 			path = NavigationGradualChange;
 			sourceTree = "<group>";
@@ -266,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3122C8462679F6A000A10E77 /* ViewController.m in Sources */,
+				3122C87E2679FA5A00A10E77 /* Tools.m in Sources */,
+				3122C87B2679F80600A10E77 /* SecondViewController.m in Sources */,
 				3122C8402679F6A000A10E77 /* AppDelegate.m in Sources */,
+				3122C8752679F70900A10E77 /* TabBarController.m in Sources */,
+				312F3896267AEFE1002D257F /* BaseNavigationController.m in Sources */,
+				3122C8782679F7FA00A10E77 /* FirstViewController.m in Sources */,
 				3122C8512679F6A200A10E77 /* main.m in Sources */,
 				3122C8432679F6A000A10E77 /* SceneDelegate.m in Sources */,
 			);
@@ -443,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NavigationGradualChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NavigationGradualChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
